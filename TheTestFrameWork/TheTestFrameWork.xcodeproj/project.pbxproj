@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		970D4DC41D70424D005F6703 /* MergeProjectFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 970D4DC31D70424D005F6703 /* MergeProjectFramework.framework */; };
+		970D4DC51D70424D005F6703 /* MergeProjectFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 970D4DC31D70424D005F6703 /* MergeProjectFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		97B547861D700F2500CB3468 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B547851D700F2500CB3468 /* main.m */; };
 		97B547891D700F2500CB3468 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B547881D700F2500CB3468 /* AppDelegate.m */; };
 		97B5478C1D700F2500CB3468 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B5478B1D700F2500CB3468 /* ViewController.m */; };
@@ -15,6 +17,8 @@
 		97B547941D700F2500CB3468 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97B547921D700F2500CB3468 /* LaunchScreen.storyboard */; };
 		97B5479C1D70114500CB3468 /* FrameworkBuild.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97B5479B1D70114500CB3468 /* FrameworkBuild.framework */; };
 		97B5479D1D70114500CB3468 /* FrameworkBuild.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97B5479B1D70114500CB3468 /* FrameworkBuild.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		97B547A01D7025EB00CB3468 /* TestStoryboardAndConectionFramewrok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97B5479F1D7025EB00CB3468 /* TestStoryboardAndConectionFramewrok.framework */; };
+		97B547A11D7025EB00CB3468 /* TestStoryboardAndConectionFramewrok.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97B5479F1D7025EB00CB3468 /* TestStoryboardAndConectionFramewrok.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +28,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				970D4DC51D70424D005F6703 /* MergeProjectFramework.framework in Embed Frameworks */,
 				97B5479D1D70114500CB3468 /* FrameworkBuild.framework in Embed Frameworks */,
+				97B547A11D7025EB00CB3468 /* TestStoryboardAndConectionFramewrok.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -32,6 +38,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		970D4DC31D70424D005F6703 /* MergeProjectFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MergeProjectFramework.framework; sourceTree = "<group>"; };
 		97B547811D700F2500CB3468 /* TheTestFrameWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheTestFrameWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97B547851D700F2500CB3468 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		97B547871D700F2500CB3468 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,6 +50,7 @@
 		97B547931D700F2500CB3468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97B547951D700F2500CB3468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97B5479B1D70114500CB3468 /* FrameworkBuild.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FrameworkBuild.framework; sourceTree = "<group>"; };
+		97B5479F1D7025EB00CB3468 /* TestStoryboardAndConectionFramewrok.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TestStoryboardAndConectionFramewrok.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +58,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				970D4DC41D70424D005F6703 /* MergeProjectFramework.framework in Frameworks */,
 				97B5479C1D70114500CB3468 /* FrameworkBuild.framework in Frameworks */,
+				97B547A01D7025EB00CB3468 /* TestStoryboardAndConectionFramewrok.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +70,8 @@
 		97B547781D700F2500CB3468 = {
 			isa = PBXGroup;
 			children = (
+				970D4DC31D70424D005F6703 /* MergeProjectFramework.framework */,
+				97B5479F1D7025EB00CB3468 /* TestStoryboardAndConectionFramewrok.framework */,
 				97B5479B1D70114500CB3468 /* FrameworkBuild.framework */,
 				97B547831D700F2500CB3468 /* TheTestFrameWork */,
 				97B547821D700F2500CB3468 /* Products */,
@@ -288,6 +300,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = TheTestFrameWork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.6150520.clement.TheTestFrameWork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -303,6 +316,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = TheTestFrameWork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.6150520.clement.TheTestFrameWork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -328,6 +342,7 @@
 				97B5479A1D700F2500CB3468 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
